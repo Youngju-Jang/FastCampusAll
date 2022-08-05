@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="HelloWorldGUI"/>
+	<classpathentry kind="src" path="fast"/>
+	<classpathentry kind="src" path="Data_and_operation"/>
+	<classpathentry kind="src" path="HelloWorld_IOT"/>
+	<classpathentry kind="src" path="MyApp"/>
+	<classpathentry kind="src" path="Programming"/>
+	<classpathentry kind="src" path="backJune"/>
+	<classpathentry kind="src" path="HelloWorld"/>
+	<classpathentry kind="src" path="java-flow-control"/>
+	<classpathentry kind="src" path="method"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-11.0.10">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

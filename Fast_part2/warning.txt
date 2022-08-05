@@ -1,0 +1,4 @@
+7월 12, 2022 5:32:47 오후 ch6.MyLogger log
+WARNING: log test
+7월 12, 2022 5:32:47 오후 ch6.MyLogger log
+SEVERE: log test
