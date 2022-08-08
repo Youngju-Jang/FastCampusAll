@@ -20,6 +20,10 @@ public class ApiController {
 
     @GetMapping("/hello")
     public UserResponse get(){
-        return restTemplateService.hello();
+        return restTemplateService.post();
     }
+
+
+
+
 }
