@@ -3,9 +3,9 @@ package org.example.client;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//@SpringBootApplication
-public class ClientApplication {
+@SpringBootApplication
+public class SpringCalculatorApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ClientApplication.class, args);
+        SpringApplication.run(SpringCalculatorApplication.class, args);
     }
 }

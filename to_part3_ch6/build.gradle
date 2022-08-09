@@ -37,6 +37,11 @@ dependencies {
 	annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+	testImplementation group: 'org.mockito', name: 'mockito-core', version: '4.6.1'
+	testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '4.6.1'
+
 
 	runtimeOnly 'com.h2database:h2'
 
