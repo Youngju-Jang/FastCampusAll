@@ -28,7 +28,11 @@ public class CalculatorApiController {
 
         Res res = new Res();
         res.setResult(result);
-        res.setResult(result);
+
+        var response = new Res.Body();
+        response.setResultCode("OK");
+        res.setResponse(response);
         return res;
     }
 }
+

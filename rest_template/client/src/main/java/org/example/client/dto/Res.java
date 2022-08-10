@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Res {
     private int result;
-    private Body resopnse;
+    private Body response;
 
     @Data
     @NoArgsConstructor
