@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.학점계산기.GradeCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T06:20:58" hostname="DESKTOP-FLOUDI3" time="0.104">
-  <properties/>
-  <testcase name="평균 학점을 계산한다." classname="org.example.학점계산기.GradeCalculatorTest" time="0.104"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

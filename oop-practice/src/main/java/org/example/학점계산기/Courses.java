@@ -7,6 +7,7 @@ public class Courses {
     private final List<Course> courses;
 
     public Courses(List<Course> courses) {
+
         this.courses = courses;
     }
 
