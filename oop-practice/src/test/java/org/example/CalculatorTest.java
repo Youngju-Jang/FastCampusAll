@@ -6,7 +6,7 @@ package org.example;
 //• 나눗셈에서 0을 나누는 경우 IllegalArgument 예외를 발생시킨다.
 //• MVC패턴(Model-View-Controller) 기반으로 구현한다
 
-import org.assertj.core.util.Streams;
+import org.example.calculate.PositiveNumber;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -16,6 +16,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatCode;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
 public class CalculatorTest {
@@ -26,7 +27,7 @@ public class CalculatorTest {
     @ParameterizedTest
     @MethodSource("formulaAndResult")
     void calculatorTest(int operand1, String operator, int operand2, int result) {
-        int calculatorResult = Calculator.calculate(operand1, operator, operand2);
+        int calculatorResult = Calculator.calculate(new PositiveNumber(operand1), operator, new PositiveNumber(operand2));
         assertThat(calculatorResult).isEqualTo(result);
     }
 
@@ -38,4 +39,5 @@ public class CalculatorTest {
                 arguments(4, "/", 2, 2)
         );
     }
+
 }

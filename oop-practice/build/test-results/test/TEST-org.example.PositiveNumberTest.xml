@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.PositiveNumberTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-06T04:26:28" hostname="DESKTOP-FLOUDI3" time="0.113">
+  <properties/>
+  <testcase name="[1] 0" classname="org.example.PositiveNumberTest" time="0.108"/>
+  <testcase name="[2] -1" classname="org.example.PositiveNumberTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

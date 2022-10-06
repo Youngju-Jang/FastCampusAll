@@ -33,6 +33,7 @@ public enum ArithmeticOperator {
     ArithmeticOperator(String operator) {
         this.operator = operator;
     }
+
     public abstract int arithmeticCalculate(final int operand1, final int operand2);
     public static int caculate(int operand1, String operator, int operand2) {
         ArithmeticOperator arithmeticOperator = Arrays.stream(values())
