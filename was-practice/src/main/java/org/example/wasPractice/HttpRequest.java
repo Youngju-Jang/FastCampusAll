@@ -1,8 +1,7 @@
-package org.example;
+package org.example.wasPractice;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.net.http.HttpHeaders;
 
 public class HttpRequest {
     private final RequestLine requestLine;

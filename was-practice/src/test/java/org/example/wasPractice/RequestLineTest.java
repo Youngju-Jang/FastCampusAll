@@ -1,6 +1,6 @@
-package org.example;
+package org.example.wasPractice;
 
-import org.example.RequestLine;
+import org.example.wasPractice.RequestLine;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

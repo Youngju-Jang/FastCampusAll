@@ -1,4 +1,4 @@
-package org.example;
+package org.example.wasPractice;
 
 import org.example.calculate.domain.Calculator;
 import org.example.calculate.domain.PositiveNumber;

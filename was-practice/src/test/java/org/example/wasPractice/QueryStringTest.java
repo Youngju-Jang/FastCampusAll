@@ -1,5 +1,6 @@
-package org.example;
+package org.example.wasPractice;
 
+import org.example.wasPractice.QueryString;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.wasPractice.CustomWebApplicationServer;
+
 import java.io.IOException;
 
 // GET /calculate?operand=11&operator=*&operand2=55

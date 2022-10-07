@@ -1,4 +1,4 @@
-package org.example;
+package org.example.wasPractice;
 
 public class QueryString {
     private final String key;
