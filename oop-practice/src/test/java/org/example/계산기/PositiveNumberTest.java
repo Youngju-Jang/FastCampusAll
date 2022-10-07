@@ -1,6 +1,6 @@
 package org.example.계산기;
 
-import org.example.계산기.calculate.PositiveNumber;
+import org.example.계산기.calculate.domain.PositiveNumber;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 

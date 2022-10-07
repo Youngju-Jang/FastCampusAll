@@ -6,8 +6,8 @@ package org.example.계산기;
 //• 나눗셈에서 0을 나누는 경우 IllegalArgument 예외를 발생시킨다.
 //• MVC패턴(Model-View-Controller) 기반으로 구현한다
 
-import org.example.계산기.calculate.PositiveNumber;
-import org.example.계산기.Calculator;
+import org.example.계산기.calculate.domain.PositiveNumber;
+import org.example.계산기.calculate.domain.Calculator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
